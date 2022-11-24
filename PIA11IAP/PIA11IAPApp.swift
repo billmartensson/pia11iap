@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PIA11IAPApp: App {
+    
+    @StateObject var storeManager = StoreManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(storeManager: storeManager)
         }
     }
 }

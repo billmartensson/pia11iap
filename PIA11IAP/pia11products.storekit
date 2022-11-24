@@ -1,0 +1,79 @@
+{
+  "identifier" : "73BDB02D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "6444696893",
+      "localizations" : [
+        {
+          "description" : "Very fancy coin",
+          "displayName" : "PIA11 Coin very nice",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "pia11coin",
+      "referenceName" : "PIA11coin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6444697353",
+      "localizations" : [
+        {
+          "description" : "Extra good stuff",
+          "displayName" : "PIA11 Premium extra features",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "pia11premium",
+      "referenceName" : "PIA11Premium",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6444696708",
+    "_developerTeamID" : "6SGQZ32758",
+    "_lastSynchronizedDate" : 690987257.58323503
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21069571",
+      "localizations" : [
+
+      ],
+      "name" : "PIA11sub",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.49",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6444697741",
+          "introductoryOffer" : null,
+          "localizations" : [
+
+          ],
+          "productID" : "submonth",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "submonth",
+          "subscriptionGroupID" : "21069571",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
